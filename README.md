@@ -72,7 +72,7 @@ Our solution require web server solution stack. We used XAMPP and that’s why w
 #!C:\Users\Admin\AppData\Local\Programs\Python\Python37-32\python.exe
 print ("Content-Type: text/html; charset=utf-8\n\n")
 So not only python but also xampp should be installed. Once it is done, httpd. file inside Appache have to be configurated by adding .py inside ADDHandler cgi-script .cgi .pl .asp and save it for start running Appache inside xampp. 
-Created python file for example main.py should be put inside httpd folder of xampp files (in place where it is installed). It is good idea to create a reference folder there with appropriate name like: beam.
+Created python file for example main.py should be put inside htdocs folder of xampp files (in place where it is installed). It is good idea to create a reference folder there with appropriate name like: beam.
 After that preparation only thing to do is to type earlier chosen folder name in a net browser followed by “localhost”. For “beam” folder it would look like: localhost/beam/. Last step is to click on python file that would pop out.
 
 4G: Load calculation
